@@ -1,0 +1,18 @@
+#+TITLE: Screenr
+
+A small rust utility to toggle sway outputs.
+
+- Turn on all outputs
+
+#+BEGIN_SRC
+screenr
+#+END_SRC
+
+- Toggle output with id `{id}`
+
+#+BEGIN_SRC
+screen {id}
+#+END_SRC
+
+Note that {id} counts from 0 and that the displays are sorted by their
+x coordinates.
